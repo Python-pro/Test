@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>ลอง</title>
+    <script>
+	function check(form) {
+		name = form.name.value;
+ 		name1 = form.name1.value;
+        i = {{rr}} ;
+      //  o = {{ii}};
+    if (name == 'print') {
+        i = i + 1;
+        alert(innerHTML = "ตอบได้ไงเนี้ย รับไปเลย" + i + "คะแนน");
+      //  o = i+o;
+			}
+
+	        else if(name1 == 'print')
+			confirm ("จะตอบจริงหรอ");
+
+
+		else{
+
+            alert(innerHTML ="แย่จังผิด รับไปเลย" + i + "คะแนน") ;
+				return true;
+			}
+       // alert(innerHTML = o + "คะแนน");
+	}
+    </script>
+    <style>
+        .mindphp {
+            font-size: 40px;
+            color: navy;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .todo {
+            font-size: 17px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!--<div class = "mindphp">Mindphp</div>
+    <div class = "todo">สอนเขียนโปรแกรมด้วย PHP สอน OOP ฐานข้อมูล สอน ทำเว็บ Joomla phpBB OpenERP.</div>  -->
+    <form onSubmit="return check(this)">
+        <p>
+            ไม่ต้องมาพูดพร่ำทำเพลง มารู้จักคำสั่งแรกของภาษา ไพธอน กันเลย
+            คำสั่งที่ว่านี้คือ  print  เป็นคำสั่งสำหรับแสดงผลข้อความออกทางหน้าจอ:<br><br>โค้ด<br>print ("My 	first Python code!") <br>
+            ผลลัพธ์  <br> My first Python code!       <br> <br>นั่นคือคำสั่ง  print  จะนำข้อความที่อยู่ใน 	(  )  ออกมาแสดงผลออกทางหน้าจอ
+            โดยข้อความเหล่านั้นจะต้องอยู่ระหว่างเครื่องหมาย " " หรือ ' ' ด้วย    <br><br>  คำถามผ่านด่าน <br> 	ถ้าจะแสดงประโยคนี้ออกมา I LOVE PYTHON จะต้องเติมอะไร   <br> คำตอบ
+        </p>
+        <p><input type=text name= name size=25> I LOVE PYTHON    </p><br>				<p><input type=text name=name1 size=25> I LOVE PYTHON    </p><br>
+        <input type=submit value="Submit">
+
+        
+
+    </form>
+</body>
+</html>	
