@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<script>
+
+</script>
+<input type="text" name="test_txt" id="test_txt" onblur="check();" value=""/>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>ข้อแบบปรนัย</title>
+<style>
+{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #ee82ee;
+  padding: 29px;
+  text-align: right;
+  font-size: 34px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 10%;
+  height: 1300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 10px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 90%;
+  background-color: #f1f1f1;
+  height: 1300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+#myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+	} 
+    
+</style>
+
+</head>
+
+<body>
+	
+<header>
+  <h2>python ITS Project</h2>
+</header>
+<form action="/action_page.php">
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Tutorial</a></li>
+      <li><a href="#">Testวัดความเข้าใจ</a></li>
+      <li><a href="#">Training</a></li>
+    </ul>
+  </nav>
+<div class="container" > 
+  <article>
+	<h2>Test วัดความเข้าใจ</h2>
+	<p>ข้อสอบแบบปรนัยชุดที่ 1 25 ข้อ</p>
+
+	<p id="myHeader"><br> 1. คำสั่งใดใช้แสดงข้อความออกทางหน้าจอ <br>      	 <! ข้อที่1 HelloPython b >
+    
+		<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> a. printf</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> b. print</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> c. show</label><br>
+  <input type="checkbox" id="vehicle4" name="vehicle4" value="Boat">
+  <label for="vehicle4"> d. input</label><br><br>
+  <input type="submit" value="Submit">  
+   
+   <div class="input-group">
+   
+ <p id="myHeader"><br>2. คำสั่งที่ใช้เว้นวรรคข้อความคือคำสั่งใด <br> <! ข้อที่2 HelloPython a>
+		a. \t <br>
+		b. \n <br>
+		c. \0 <br>
+		d. \\ 
+</br><input type="text" id="f2" name="n" > </p>
+   
+    	<a href="#ml1" class="btn btn-info" data-toggle="collapse">Submit</a>
+        
+  <div id="ml1" class="collapse">a.</div>
+ 
+  <p id="myHeader"><br>3. คำสั่งที่ใช้ทำคอมเม้นบรรทัดเดียวคือคำสั่งใด <br> 		<!  ข้อที่3 Comment a>
+		a. #		<br>
+		b. # ข้อความ #	<br>
+		c. ''' ข้อความ '''	<br>
+		d. *
+</br><input type="text" id="f3" name="n" > </p>
+  		
+    	<a href="#ml2" class="btn btn-info" data-toggle="collapse">Submit</a>
+        
+  <div id="ml2" class="collapse">.</div>
+  
+    <p id="myHeader"><br>4. คำสั่งที่ใช้ทำคอมเม้นหลายบรรทัดคือคำสั่งใด <br> 		<! ข้อที่4 Comment c>
+		a. #		<br>
+		b. # ข้อความ #	<br>	
+		c. ''' ข้อความ '''	<br>
+		d. *
+</br><input type="text" id="f4" name="n" > </p>
+
+    	<a href="#ml3" class="btn btn-info" data-toggle="collapse">Submit</a>
+        
+  <div id="ml3" class="collapse"></div>
+  
+    <p id="myHeader"><br>5. การเขียน Indentation ในภาษา Python ที่ถูกต้อง <br> <! ข้อที่5 Indentation a >
+		a.print("Easy python") 		<br>
+		b. print("Easy python")		<br>
+		c.printf("Easy python")		<br>
+		d.printf("Easy python")
+</br><input type="text" id="f5" name="n" > </p>
+ 
+    	<a href="#ml4" class="btn btn-info" data-toggle="collapse">Submit</a>
+        
+  <div id="ml4" class="collapse"></div> 
+ 
+  <p id="myHeader"><br>6. การประกาศตัวแปรประเภท integer มีลักษณะเป็นอย่างไร        <br> <! ข้อที่6 Variables b >
+		a. A = 4.5     			<br>    
+		b. A = 9       			<br>
+		c. A = "Hello"    		<br>    
+		d. A = 'b'    
+</br><input type="text" id="f5" name="n" > </p>
+
+    	<a href="#ml5" class="btn btn-info" data-toggle="collapse">Submit</a>
+        
+  <div id="ml4" class="collapse"></div> 
+
+ <p id="myHeader"><br>7. การประกาศตัวแปรประเภท char มีลักษณะเป็นอย่างไร        	<br> <! ข้อที่7 Variables d >
+		a. A = 4.5        		<br>
+		b. A = 9        		<br>
+		c. A = "Hello"    	 	<br>   
+		d. A = 'b'        
+</br><input type="text" id="f5" name="n" > </p>
+ 
+    	<a href="#ml6" class="btn btn-info" data-toggle="collapse">Submit</a>
+        
+  <div id="ml4" class="collapse"></div> 
+ 
+   <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label><br><br>
+  <input type="submit" value="Submit">
+ 
+ 
+ 
+ </article>
+ </div> 
+ 
+
+ 
+<p id="demo"></p>
+<p id="fname"></p>
+
